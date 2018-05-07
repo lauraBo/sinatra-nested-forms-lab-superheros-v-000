@@ -9,6 +9,8 @@ get '/' do
 end
 
 post '/teams' do
+  
+  @team_name = team[:name]
   erb :super_hero
 end
 
