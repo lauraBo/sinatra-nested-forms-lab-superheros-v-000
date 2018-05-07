@@ -7,8 +7,13 @@
   
   <h1><%= @team_motto %> </h1><br>
   
-<% @team_members.each do %>
-   |team_member|
+
+<% @team_members.each do |team_member| %>
+  
+    <p>Hero Name: <%= team_member.name %></p><br>
+    <p>Topic: <%= course.topic %></p><br>
+  </div><br>
+<% end %>
    
   
 
