@@ -8,7 +8,7 @@ get '/' do
   erb :team
 end
 
-
+post 
 
 
 
